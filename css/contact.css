@@ -1,0 +1,135 @@
+/* ============================ contact ========================= */
+.one {
+    background-color: #022e52;
+    height: 60vh;
+  }
+  
+  
+  .one .text {
+    width: 70%;
+    margin: auto;
+  }
+  
+  .one .text p {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+  }
+  
+  .one .text h1 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+    font-weight: bold;
+  }
+  /* .box{
+    display: flex;
+  } */
+  .two .box {
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    box-shadow: 6px 2px 23px -1px rgb(74 68 68 / 48%);
+    height: 450px;
+    margin-top: -40px;
+    /* padding: 60px; */
+    padding: 40px 60px 60px 60px;
+  }
+  
+  /* .box .imge img {
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+  } */
+  
+  .imge_contact {
+    border: #217cc7 2px solid;
+    border-radius: 50%;
+    padding: 15px;
+    margin-bottom: 20px;
+    /* transition: 3s; */
+  }
+  
+  .list_contact {
+    list-style: none;
+    margin-left: -20px;
+    font-size: 17px;
+  }
+  
+  .list_contact li {
+    margin-bottom: 15px;
+  }
+  
+  .list_contact i {
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 50%;
+    border: solid 1px #022e52;
+    color: #217cc7;
+  }
+  .first{
+    border-right: solid 2px #d3d3d3;
+  }
+  form{
+   margin-left: 30px;
+  }
+  form input{
+    margin-top: 20px;
+  }
+  .boxing{
+    width: 50%;
+    background: white;
+    box-shadow: 0 0 24px -15px black;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 50px;
+  }
+  @media (max-width:991px){
+    .boxing{
+      width: 100%;
+    }
+  
+  }
+  .count{
+    position: relative;
+  }
+  .count::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -15px;
+    background-color: #eee;
+    width: 1px;
+    height: 100%;
+  }
+  .contact{
+    position: relative;
+  
+  }
+  .contact input{
+    padding: 10px 10px 10px  40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    background-color: #eee;
+    width: 100%;
+  }
+  .contact textarea{
+    padding: 10px 10px 10px  40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    background-color: #eee;
+    width: 100%;
+  
+  }
+  .contact i{
+    position: absolute;
+    top: 14px;
+    left: 10px;
+  }
